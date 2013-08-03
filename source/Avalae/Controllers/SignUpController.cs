@@ -6,13 +6,15 @@ using System.Web.Mvc;
 
 namespace Avalae.Controllers
 {
-    public class HomeController : Controller
+    public class SignUpController : Controller
     {
+        //
+        // GET: /SignUp/
+
         public ActionResult Index()
         {
-            ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
-
             return View();
         }
+
     }
 }
